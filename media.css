@@ -1,0 +1,157 @@
+/* tablet */
+@media(max-width: 768px)
+{
+    .logo-p1,.logo-p2 {
+        font-size: 3vw;
+    }
+    .social a,.help-lang a,.menu a {
+        font-size: 2vw;
+    }
+    .search-box {
+        width: 18vw;
+        height: 2.7vw;
+    }
+    .search-icon {
+        width: 2.7vw;
+        height: 2.7vw;
+        font-size: 2vw;
+    }
+    .card-cont {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .card {
+        height: 35vw;
+    }
+}
+/* tablet */
+/* phone */
+@media(max-width: 576px)
+{
+/* -------------------------------------phone-nave1,2------------------------------------- */
+    .nav1-cont,.nav2-cont {
+        display: none;
+    }
+    .nav1-phone-cont {
+        display: grid;
+        grid-template-areas: "logo help-lang";
+        grid-gap: 1px;
+        border-bottom: #ccc solid 1px;
+        height: 10vw;
+        border-bottom: #ccc solid 1px;
+    }
+    .logo-p1,.logo-p2 {
+        font-size: 8vw;
+    }
+    .help-lang a {
+        font-size: 4.5vw;
+        position: relative;
+        top: 1.5vw;
+        margin-left: 2vw;
+    }
+    .nav2-phone-cont {
+        display: flex; 
+        border-bottom: #000 solid 1px;
+        height: 10.5vw;
+    }
+    .phone-menu-btn {
+        margin: 1.5vw 3vw;
+        width: 15vw;
+        font-size: 6vw;
+    }
+    .phone-menu-btn:hover {
+        color: #fa0;
+    }
+    .search {
+        width: 75vw;
+    }
+    .search-box {
+        width: 50vw;
+        height: 6.5vw;
+        margin: 0.75vw 0 2vw;
+    }
+    .search-icon {
+        width: 6.5vw;
+        height: 6.5vw;
+        font-size: 4vw;
+    }
+    .shopping-bag {
+        width: 15vw;
+        text-align: center;
+        margin: 1vw 0;
+    }
+    .shopping-bag a {
+        font-size: 7vw;
+    }
+/* -------------------------------------phone-nave1,2------------------------------------- */
+/* -------------------------------------phone-menu------------------------------------- */
+    .phone-menu {
+        position: fixed;
+        display: none;
+        z-index: 999;
+        background: #ddd;
+        height: 100vh;
+        width: 80vw;
+        padding: 5vw;
+        font-size: 6vw;
+    }
+    .phone-menu dd {
+        margin-bottom: 4vh;
+    }
+    .pho-men-lin {
+        text-decoration: none;
+        color: #000;
+    }
+    .pho-men-lin:hover {
+        color: #fa0;
+    }
+    .blur {
+        position: fixed;
+        display: none;
+        z-index: 99;
+        background: #00000081;
+        height: 100vh;
+        padding: 5vw;
+        width: 20vw;
+        left: 80vw;
+    }
+    .exe {
+        float: right;
+    }
+    .exe:hover {
+        color: #fa0;
+    }
+/* -------------------------------------phone-menu------------------------------------- */
+/* -------------------------------------today-offer------------------------------------- */
+    .today-offer-cont {
+        grid-template-columns: 96vw;
+        grid-template-rows: 96vw 96vw;
+    }
+    .small-offers {
+        grid-template-rows: 47.5vw 47.5vw;
+    }
+/////////////////////////////////* -------------------------------------today-offer------------------------------------- */
+/* -------------------------------------main-cards------------------------------------- */
+    .card-cont {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card {
+        height: 48vw;
+    }
+    .card h4 {
+        font-size: 3vw;
+        margin-bottom: 0.75vw;
+    }
+/* -------------------------------------main-cards------------------------------------- */
+/* -------------------------------------html------------------------------------- */
+    .prod-name {
+        height: 8vw;
+        width: 98vw;
+    }
+    .down,.up {
+        width: 5vw;
+        height: 5vw;
+        margin: 1.5vw;
+    }
+/* -------------------------------------html------------------------------------- */
+}
+/* phone */

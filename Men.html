@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>NILE-STORE</title>
+</head>
+<body>
+    <!-- -------------------------------------phone-menu------------------------------------- -->
+    <div class="phone-menu phone" id="show-phone-menu">
+        <tr>
+            <dd class="exe" onclick="hidingMenu()"><i class="fa-solid fa-xmark"></i></dd>
+            <dd><a href="index.html" class="pho-men-lin">Home</a></dd>
+            <dd><a href="Men.html" class="pho-men-lin" style="background: #fa0;">Men's Fashion</a></dd>
+            <dd><a href="Women.html" class="pho-men-lin">Women's Fashion</a></dd>
+            <dd><a href="Kids.html" class="pho-men-lin">Kids</a></dd>
+            <dd><a href="Baby.html" class="pho-men-lin">Baby</a></dd>
+            <dd><a href="Sport.html" class="pho-men-lin">Sport</a></dd>
+            <dd><a href="#" class="pho-men-lin sp"><i class="fa-solid fa-circle-info"></i>  help</a></dd>
+        </tr>
+    </div>
+    <div class="blur" id="show-phone-menu-blure"><p>r</p></div>
+    <!-- -------------------------------------phone-menu------------------------------------- -->
+    <!-- -------------------------------------nav1------------------------------------- -->
+    <div class="nav1-cont">
+        <div class="nav1-box logo">
+                <h1 class="logo-p1">NILE</h1>
+                <h1 class="logo-p2">STORE</h1>
+        </div>
+        <div class="nav1-box social">
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-square"></i></a>
+        </div>
+        <div class="nav1-box help-lang">
+            <a href="#"><i class="fa-solid fa-circle-info"></i>  help</a>
+            <a href="#"><i class="fa-solid fa-globe"></i>  lang</a>
+            <a href="#"><i class="fa-solid fa-user"></i>  login</a>
+        </div>
+    </div>
+    <!-- -------------------------------------nav1------------------------------------- -->
+    <!-- -------------------------------------nav2------------------------------------- -->
+    <div class="nav2-cont">
+        <div class="nav2-box shopping-bag">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="nav2-box menu">
+            <a href="index.html" style="border: none;">Home</a>
+            <a href="Men.html" style="background: #fa0;">Men's Fashion</a>
+            <a href="Women.html">Women's Fashion</a>
+            <a href="Kids.html">Kids</a>
+            <a href="Baby.html">Baby</a>
+            <a href="Sport.html">Sport</a>
+        </div>
+        <div class="nav2-box search">
+            <input class="search-box" type="search">
+            <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;</button>
+        </div>
+    </div>
+    <!-- -------------------------------------nav2------------------------------------- -->
+    <!-- -------------------------------------phone-nav1------------------------------------- -->
+    <div class="nav1-phone-cont phone">
+        <div class="nav1-box logo">
+            <h1 class="logo-p1">NILE</h1>
+            <h1 class="logo-p2">STORE</h1>
+        </div>
+        <div class="nav1-box help-lang">
+            <a href="#"><i class="fa-solid fa-globe"></i>  lang</a>
+            <a href="#"><i class="fa-solid fa-user"></i>  login</a>
+        </div>
+    </div>
+    <!-- -------------------------------------phone-nav1------------------------------------- -->
+    <!-- -------------------------------------phone-nav2------------------------------------- -->
+    <div class="nav2-phone-cont phone">
+        <div class="phone-menu-btn" onclick="showMenu()"><i class="fa-solid fa-bars"></i></div>
+        <div class="nav2-box search">
+            <input class="search-box" type="search">
+            <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;</button>
+        </div>
+        <div class="nav2-box shopping-bag">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+    <!-- -------------------------------------phone-nav2------------------------------------- -->
+    <!-- -------------------------------------new------------------------------------- -->
+    <div class="prod-cont">
+        <div class="prod-name">
+            <h2>Shirt</h2>
+            <button class="down" id="down-1" onclick="showContainer('shirts-1','up-1','down-1')"><i class="fa-solid fa-angles-down"></i></button>
+            <button class="up" id="up-1" onclick="hidingContainer('shirts-1','up-1','down-1')"><i class="fa-solid fa-angles-up"></i></button>
+        </div>
+        <div class="card-cont hide" id="shirts-1" style="margin: 0;">
+            <div class="card">
+                <a href="#"><img src="Men/men-shirt/1.jpg"></a>
+                <h4>537$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/2.jpg"></a>
+                <h4>868$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/3.jpg"></a>
+                <h4>879$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/4.jpg"></a>
+                <h4>466$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/5.jpg"></a>
+                <h4>965$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/6.jpg"></a>
+                <h4>768$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/7.jpg"></a>
+                <h4>487$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/8.jpg"></a>
+                <h4>768$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/9.jpg"></a>
+                <h4>598$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shirt/10.jpg"></a>
+                <h4>609$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+<!--  -->
+<div class="prod-cont">
+        <div class="prod-name">
+            <h2>Pants</h2>
+            <button class="down"  id="down-2" onclick="showContainer('pants-1','up-2','down-2')"><i class="fa-solid fa-angles-down"></i></button>
+            <button class="up" id="up-2" onclick="hidingContainer('pants-1','up-2','down-2')"><i class="fa-solid fa-angles-up"></i></button>
+        </div>
+        <div class="card-cont hide" id="pants-1" style="margin: 0;">
+            <div class="card">
+                <a href="#"><img src="Men/men-pants/1.jpg"></a>
+                <h4>658$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/2.jpg"></a>
+                <h4>757$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/3.jpg"></a>
+                <h4>189$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/4.jpg"></a>
+                <h4>747$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/5.jpg"></a>
+                <h4>562$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/6.jpg"></a>
+                <h4>843$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/7.jpg"></a>
+                <h4>637$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/8.jpg"></a>
+                <h4>978$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/9.jpg"></a>
+                <h4>758$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-pants/10.jpg"></a>
+                <h4>954$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+<!--  -->
+    <div class="prod-cont">
+        <div class="prod-name">
+            <h2>Shose</h2>
+            <button class="down"  id="down-3" onclick="showContainer('shoses-1','up-3','down-3')"><i class="fa-solid fa-angles-down"></i></button>
+            <button class="up" id="up-3" onclick="hidingContainer('shoses-1','up-3','down-3')"><i class="fa-solid fa-angles-up"></i></button>
+        </div>
+        <div class="card-cont hide" id="shoses-1" style="margin: 0;">
+            <div class="card">
+                <a href="#"><img src="Men/men-shose/1.jpg"></a>
+                <h4>847$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/2.jpg"></a>
+                <h4>840$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/3.jpg"></a>
+                <h4>874$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/4.jpg"></a>
+                <h4>367$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/5.jpg"></a>
+                <h4>848$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/6.jpg"></a>
+                <h4>282$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/7.jpg"></a>
+                <h4>763$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/8.jpg"></a>
+                <h4>579$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/9.jpg"></a>
+                <h4>598$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+			<div class="card">
+                <a href="#"><img src="Men/men-shose/10.jpg"></a>
+                <h4>246$ &nbsp;<del></del></h4>
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------------------new------------------------------------- -->
+    <!-- -------------------------------------footer------------------------------------- -->
+    <footer>
+        <h5 class="footer-1">by abdallah abdalmageed © 2022</h5>
+        <h5 class="footer-2">my number : 201122187038</h5>
+    </footer>
+    <!-- -------------------------------------footer------------------------------------- -->
+    <script src="script.js"></script>
+</body>
+</html>
